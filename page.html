@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page - Seu Projeto</title>
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+    <style>
+      .gradient {
+        background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+      }
+    </style>
+  </head>
+  <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+    
+    <!-- Navbar -->
+    <nav class="fixed w-full z-30 top-0 text-white">
+      <div class="container mx-auto flex items-center justify-between py-2">
+        <div class="flex items-center">
+          <a href="#" class="text-white font-bold text-2xl lg:text-4xl">LANDING</a>
+        </div>
+        <div class="hidden lg:flex space-x-4">
+          <a href="#" class="text-black">Active</a>
+          <a href="#" class="text-black">Link</a>
+          <a href="#" class="text-black">Link</a>
+        </div>
+        <button class="bg-white text-gray-800 py-2 px-4 rounded-full hover:bg-gray-200">Action</button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24">
+      <div class="container mx-auto flex flex-wrap items-center">
+        <div class="w-full md:w-1/2 text-center md:text-left">
+          <p class="uppercase tracking-loose">Seu Negócio</p>
+          <h1 class="text-5xl font-bold my-4">Mensagem principal!</h1>
+          <p class="text-2xl">Mensagem secundária, atraente e direta.</p>
+          <button class="bg-white text-gray-800 py-4 px-8 rounded-full mt-6">Inscreva-se</button>
+        </div>
+        <div class="w-full md:w-1/2">
+          <img src="hero.png" class="w-full md:w-4/5" alt="Imagem Principal"/>
+        </div>
+      </div>
+    </section>
+
+    <!-- Conteúdo Secundário -->
+    <section class="bg-white border-b py-8">
+      <div class="container mx-auto text-center">
+        <h2 class="text-5xl font-bold">Título da Seção</h2>
+        <div class="h-1 bg-gradient-to-r from-pink-500 to-yellow-500 w-64 mx-auto my-4"></div>
+        <p class="text-gray-600">Texto explicativo sobre a seção ou conteúdo aqui.</p>
+      </div>
+      <div class="container mx-auto flex flex-wrap py-8">
+        <div class="w-full md:w-1/2 p-4">
+          <h3 class="text-3xl font-bold">Subtítulo 1</h3>
+          <p class="text-gray-600">Texto explicativo ou detalhes sobre o item.</p>
+        </div>
+        <div class="w-full md:w-1/2 p-4">
+          <img src="illustration.svg" alt="Ilustração" class="w-full sm:h-64 mx-auto" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-6">
+      <div class="container mx-auto text-center">
+        <p>Desenvolvido por Seu Nome</p>
+      </div>
+    </footer>
+  </body>
+</html>

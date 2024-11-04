@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+     Murilo Tampletes páginas workflash
+    </title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+
+.banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 89vh;
+  text-align: center;
+}
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.banner-content {
+  position: absolute;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo do Título Principal */
+.banner-headline {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Estilo do Subtítulo */
+.banner-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: #e0e0e0; /* Tom de cinza claro para contraste */
+}
+
+/* Botão de CTA */
+.banner-button {
+  padding: 10px 30px;
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.banner-button:hover {
+  background-color: #fff;
+  color: #333;
+}
+    footer {
+        background-color: white; /* Fundo branco */
+        color: #000000; /* Texto em roxo */
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .footer-container {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .footer-logo {
+        margin-bottom: 30px;
+    }
+
+    .footer-logo img {
+        width: 150px; /* Ajuste o tamanho da logo conforme necessário */
+    }
+
+    .footer-sections {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footer-col {
+        flex: 1;
+        margin: 10px 20px;
+        min-width: 200px;
+    }
+
+    .footer-col h3 {
+        color: #000000; /* Títulos em roxo */
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .footer-col ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .footer-col ul li {
+        margin: 10px 0;
+    }
+
+    .footer-col ul li a {
+        color: #000000; /* Links em roxo */
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .footer-col ul li a:hover {
+        text-decoration: underline;
+    }
+
+    .footer-bottom {
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid #000000; /* Linha roxa */
+    }
+
+    .social-icons a {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-bottom p {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+</style>
+
+    
+    <meta name="description" content="Simple landind page" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <!--Replace with your tailwind.css once created-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+    <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
+    <style>
+     
+
+
+      .gradient {
+        background: linear-gradient(90deg, #000000 0%, #121212
+
+90%);
+      }
+      /* CSS: Definindo a animação de flutuação e rotação */
+
+
+    </style>
+  </head>
+  
+  <body>
+  
+<!-- Botão Flutuante com Notificação -->
+<a href="todos.html" target="_blank">
+    <div class="floating-button">
+      <img src="img/9571359.png" alt="Botão" class="button-image">
+      <span class="notification-dot"></span>
+    </div>
+  </a>
+  
+  <style>
+  /* Estilo do Botão Flutuante */
+  .floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff; /* Cor de fundo (similar ao WhatsApp) */
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .floating-button:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Imagem dentro do botão */
+  .button-image {
+    width: 50%;
+    height: 50%;
+  }
+  
+  /* Ponto de Notificação */
+  .notification-dot {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 12px;
+    height: 12px;
+    background-color: red;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  </style>
+  
+  
+
+  <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+    <!--Nav-->
+    <nav id="header" class="fixed w-full z-30 top-0 text-white">
+      <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+        <div class="pl-4 flex items-center">
+          <a class="toggleColour text-black no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+            <!--Icon from: http://www.potlabicons.com/ -->
+            <div class="block lg:hidden pr-4">
+              <button id="nav-toggle" class="flex items-center p-1 text-pink-800 hover:text-gray-1300 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                <img src="img/menu.png" alt="Novo Ícone" class="h-8 plane-take-off" />
+              </button>
+            </div>
+            <a href="index.html" class="inline-flex items-center">
+              <img src="logo.png" alt="Novo Ícone" class="h-8 plane-take-off" />
+              
+            </a>
+            
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-black lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
+          <ul class="list-reset lg:flex justify-end flex-1 items-center">
+            <li class="mr-3">
+                <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="contato.html">Contato Provedor</a>
+          </ul>
+          <button
+            id="navAction"
+            class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+          >
+            
+        Todos os Cursos
+          </button>
+        </div>
+      </div>
+      <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
+    </nav>
+    <div class="banner">
+      <img src="img/com.avif" alt="Banner" class="banner-image" />
+      <div class="banner-content">
+        <h1 class="banner-headline">Todos nosso cursos para você mudar de vida! </h1>
+        <h2 class="banner-subtitle">logo abaixo tenha acesso a todos eles</h2>
+       
+      </div>
+    </div>
+    
+    
+    <script>
+window.addEventListener("scroll", function() {
+  const banner = document.querySelector(".banner");
+  const bannerPosition = banner.getBoundingClientRect().top;
+  const screenPosition = window.innerHeight / 1.5;
+
+  if (bannerPosition < screenPosition) {
+    banner.classList.add("visible");
+  }
+});
+
+    </script>
+    <div class="relative -mt-12 lg:-mt-24">
+      <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
+            <path
+              d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
+              opacity="0.100000001"
+            ></path>
+            <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" id="Path-4" opacity="0.200000003"></path>
+          </g>
+          <g transform="translate(-4.000000, 76.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path
+              d="M0.457,34.035 C57.086,53.198 98.208,65.809 123.822,71.865 C181.454,85.495 234.295,90.29 272.033,93.459 C311.355,96.759 396.635,95.801 461.025,91.663 C486.76,90.01 518.727,86.372 556.926,80.752 C595.747,74.596 622.372,70.008 636.799,66.991 C663.913,61.324 712.501,49.503 727.605,46.128 C780.47,34.317 818.839,22.532 856.324,15.904 C922.689,4.169 955.676,2.522 1011.185,0.432 C1060.705,1.477 1097.39,3.129 1121.236,5.387 C1161.703,9.219 1208.621,17.821 1235.4,22.304 C1285.855,30.748 1354.351,47.432 1440.886,72.354 L1441.191,104.352 L1.121,104.031 L0.457,34.035 Z"
+            ></path>
+          </g>
+        </g>
+      </svg>
+    </div>
+
+    <section class="bg-white border-b py-8">
+        <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+          <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+            Desenvolvimento Pessoal
+          </h2>
+          <div class="w-full mb-4">
+            <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+          </div>
+      
+          <!-- Sessão de Cursos -->
+          <div class="w-full flex flex-wrap justify-center gap-6">
+            
+            <!-- Curso 1 -->
+            <div class="w-full md:w-1/4 p-4 bg-gray-100 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+              <img src="img/maestriafw.webp" alt="Imagem do Curso 1" class="w-full h-48 object-cover rounded-t-lg">
+              <div class="p-4">
+                <h3 class="text-2xl font-bold text-gray-800">Maestria Emocional (Formação On-line)
+                </h3>
+                <p class="text-gray-600 mt-2">O Curso MAESTRIA EMOCIONAL foi criado e gravado para que você possa aprender e entender que SEU TEMPERAMENTO deve ser seu PONTO MAIS FORTE e não sua fraqueza dominante.</p>
+                <a href="https://go.hotmart.com/H96374099U?dp=1" class="block mt-4 bg-gradient-to-r from-purple-500 to-purple-700 text-white text-center py-2 rounded hover:from-purple-600 hover:to-purple-800 transition-colors duration-300">Saiba Mais</a>
+              </div>
+            </div>
+      
+            
+          </div>
+        </div>
+      </section>
+      
+
+      <section class="bg-white border-b py-8">
+        <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+          <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+            Softwares
+          </h2>
+          <div class="w-full mb-4">
+            <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+          </div>
+      
+          <!-- Sessão de Cursos -->
+          <div class="w-full flex flex-wrap justify-center gap-6">
+            
+            <!-- Curso 1 -->
+            <div class="w-full md:w-1/4 p-4 bg-gray-100 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+              <img src="img/Inserirumttulo.png" alt="Imagem do Curso 1" class="w-full h-48 object-cover rounded-t-lg">
+              <div class="p-4">
+                <h3 class="text-2xl font-bold text-gray-800">Curso Básico Solid Works CBSW</h3>
+                <p class="text-gray-600 mt-2">"O Curso Básico Solid Works (CBSW) é uma jornada introdutória que oferece uma sólida compreensão dos fundamentos essenciais do Solid Works. Explore recursos abrangentes, desde esboço e detalhamento até montagem e estudo de movimento. Aprenda a trabalhar com chapas metálicas, superfícies e recursos avançados, como animação e soldagem.</p>
+                <a href="https://go.hotmart.com/R95826572A?dp=1  " class="block mt-4 bg-gradient-to-r from-purple-500 to-purple-700 text-white text-center py-2 rounded hover:from-purple-600 hover:to-purple-800 transition-colors duration-300">Saiba Mais</a>
+              </div>
+            </div>
+      
+            <!-- Curso 2 -->
+            <div class="w-full md:w-1/4 p-4 bg-gray-100 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+              <img src="img/pla.png" alt="Imagem do Curso 2" class="w-full h-48 object-cover rounded-t-lg">
+              <div class="p-4">
+                <h3 class="text-2xl font-bold text-gray-800">Curso da Programação</h3>
+                <p class="text-gray-600 mt-2">Transforme seu futuro com cursos de programação online de qualidade, criados por um especialista que está ativo no mercado! Desenvolva suas habilidades de programação e capacite-se para uma carreira de sucesso na área de tecnologia!</p>
+                <a href="https://go.hotmart.com/V96374522U  " class="block mt-4 bg-gradient-to-r from-purple-500 to-purple-700 text-white text-center py-2 rounded hover:from-purple-600 hover:to-purple-800 transition-colors duration-300">Saiba Mais</a>
+              </div>
+            </div>
+      
+            <!-- Curso 3 -->
+            <div class="w-full md:w-1/4 p-4 bg-gray-100 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+              <img src="img/planilha.webp" alt="Imagem do Curso 3" class="w-full h-48 object-cover rounded-t-lg">
+              <div class="p-4">
+                <h3 class="text-2xl font-bold text-gray-800">Planilha de Quadro de Cargas 2.0</h3>
+                <p class="text-gray-600 mt-2">Esta planilha faz um excelente trabalho ao calcular um quadro de cargas. Basta você inserir algumas informações dos circuitos que compões o quadro que ela calculará, automaticamente, as potências reativa, e aparente de cada circuito</p>
+                <a href="https://go.hotmart.com/L96374507L?dp=1  " class="block mt-4 bg-gradient-to-r from-purple-500 to-purple-700 text-white text-center py-2 rounded hover:from-purple-600 hover:to-purple-800 transition-colors duration-300">Saiba Mais</a>
+              </div>
+            </div>
+      
+            <!-- Curso 4 -->
+            <div class="w-full md:w-1/4 p-4 bg-gray-100 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+              <img src="img/Capa.png" alt="Imagem do Curso 4" class="w-full h-48 object-cover rounded-t-lg">
+              <div class="p-4">
+                <h3 class="text-2xl font-bold text-gray-800">Planilha de Planejamento Tributário 5.0</h3>
+                <p class="text-gray-600 mt-2">Planilha incrível de planejamento tributário com mais de 3.000 cópias vendidas oferece uma simulação completa e dinâmica de pagamento de impostos. Definido as métricas de cálculo, será inserido os valores de receitas, custos e despesas, onde o sistema fará uma apuração automática de valores de impostos em diversas modalidades e tipos de tributação. Ainda terá gráficos incríveis para gestão e um relatório completo para impressão.</p>
+                <a href="https://go.hotmart.com/E96374489S?dp=1" class="block mt-4 bg-gradient-to-r from-purple-500 to-purple-700 text-white text-center py-2 rounded hover:from-purple-600 hover:to-purple-800 transition-colors duration-300">Saiba Mais</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-white border-b py-8">
+        <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+          <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+           Consursos
+          </h2>
+          <div class="w-full mb-4">
+            <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+          </div>
+      
+          <!-- Sessão de Cursos -->
+          <div class="w-full flex flex-wrap justify-center gap-6">
+            
+            <!-- Curso 1 -->
+            <div class="w-full md:w-1/4 p-4 bg-gray-100 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+              <img src="img/100.jpeg" alt="Imagem do Curso 1" class="w-full h-48 object-cover rounded-t-lg">
+              <div class="p-4">
+                <h3 class="text-2xl font-bold text-gray-800">1000 QUESTÕES GABARITADAS CORREIOS - CARTEIRO</h3>
+                <p class="text-gray-600 mt-2">100 questões de acordo com a banca IBFC, questões de acordo com cada disciplina, 200 questões de cada disciplina</p>
+                <a href="https://go.hotmart.com/K96374335U?ap=c821" class="block mt-4 bg-gradient-to-r from-purple-500 to-purple-700 text-white text-center py-2 rounded hover:from-purple-600 hover:to-purple-800 transition-colors duration-300">Saiba Mais</a>
+              </div>
+            </div>
+      
+            <!-- Curso 2 -->
+            <div class="w-full md:w-1/4 p-4 bg-gray-100 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+              <img src="img//os egre.png" alt="Imagem do Curso 2" class="w-full h-48 object-cover rounded-t-lg">
+              <div class="p-4">
+                <h3 class="text-2xl font-bold text-gray-800">O Segredo da Aprovação</h3>
+                <p class="text-gray-600 mt-2">Esse e-book vai tratar de forma direta o que a maioria dos concurseiros fizeram para conseguir a aprovação...</p>
+                <a href="https://go.hotmart.com/J96374324Q?dp=1" class="block mt-4 bg-gradient-to-r from-purple-500 to-purple-700 text-white text-center py-2 rounded hover:from-purple-600 hover:to-purple-800 transition-colors duration-300">Saiba Mais</a>
+              </div>
+            </div>
+    
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-white border-b py-8">
+        <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+          <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+           Idiomas
+          </h2>
+          <div class="w-full mb-4">
+            <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+          </div>
+      
+          <!-- Sessão de Cursos -->
+          <div class="w-full flex flex-wrap justify-center gap-6">
+            
+            <!-- Curso 1 -->
+            <div class="w-full md:w-1/4 p-4 bg-gray-100 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+              <img src="img/audo.png" alt="Imagem do Curso 1" class="w-full h-48 object-cover rounded-t-lg">
+              <div class="p-4">
+                <h3 class="text-2xl font-bold text-gray-800">A jornada do autodidata</h3>
+                <p class="text-gray-600 mt-2">Realize seu sonho de falar inglês com segurança e naturalidade</p>
+                <a href=" https://go.hotmart.com/O96374634P" class="block mt-4 bg-gradient-to-r from-purple-500 to-purple-700 text-white text-center py-2 rounded hover:from-purple-600 hover:to-purple-800 transition-colors duration-300">Saiba Mais</a>
+              </div>
+            </div>
+      
+            <!-- Curso 2 -->
+            <div class="w-full md:w-1/4 p-4 bg-gray-100 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+              <img src="img/inglesss.webp" alt="Imagem do Curso 2" class="w-full h-48 object-cover rounded-t-lg">
+              <div class="p-4">
+                <h3 class="text-2xl font-bold text-gray-800">INGLÊS COM A GRINGA</h3>
+                <p class="text-gray-600 mt-2">Inglês com a Gringa" é um curso completo de inglês com aulas do Básico ao avançado. Você terá acesso VITALÍCIO e com direito a todos os BÔNUS.</p>
+                <a href=" https://go.hotmart.com/P96374628T?dp=1" class="block mt-4 bg-gradient-to-r from-purple-500 to-purple-700 text-white text-center py-2 rounded hover:from-purple-600 hover:to-purple-800 transition-colors duration-300">Saiba Mais</a>
+              </div>
+            </div>
+      
+            <!-- Curso 3 -->
+            <div class="w-full md:w-1/4 p-4 bg-gray-100 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+              <img src="img/AVANCADO.png" alt="Imagem do Curso 3" class="w-full h-48 object-cover rounded-t-lg">
+              <div class="p-4">
+                <h3 class="text-2xl font-bold text-gray-800">Inglês - O método correto!</h3>
+                <p class="text-gray-600 mt-2">Americana revela o segredo para ficar fluente em inglês sem precisar sair do Brasil.</p>
+                <a href="https://go.hotmart.com/P96374628T?ap=25bf " class="block mt-4 bg-gradient-to-r from-purple-500 to-purple-700 text-white text-center py-2 rounded hover:from-purple-600 hover:to-purple-800 transition-colors duration-300">Saiba Mais</a>
+              </div>
+            </div>
+
+        </div>
+      </section>
+
+
+      <section class="bg-white py-16">
+        <div class="container mx-auto">
+          <h2 class="text-4xl font-bold text-gray-800 text-center mb-12">Perguntas Frequentes</h2>
+      
+          <!-- FAQ Accordion -->
+          <div class="max-w-2xl mx-auto space-y-4">
+            
+            <!-- Pergunta 1 -->
+            <div class="border-b border-gray-200 pb-4">
+              <button class="w-full text-left text-lg font-semibold text-gray-800 flex justify-between items-center focus:outline-none toggle-faq">
+                <span>Os cursos oferecem certificado?</span>
+                <span class="icon">+</span>
+              </button>
+              <p class="mt-2 text-gray-600 hidden answer">Cada curso tem suas informações detalhadas ao clicar nele, mas quase todos os cursos oferecem certificados ao final, permitindo que você comprove suas habilidades.</p>
+            </div>
+      
+            <!-- Pergunta 2 -->
+            <div class="border-b border-gray-200 pb-4">
+              <button class="w-full text-left text-lg font-semibold text-gray-800 flex justify-between items-center focus:outline-none toggle-faq">
+                <span>Os cursos são 100% online?</span>
+                <span class="icon">+</span>
+              </button>
+              <p class="mt-2 text-gray-600 hidden answer">Sim, todos os cursos são totalmente online, para que você possa estudar no seu próprio ritmo e de onde estiver.</p>
+            </div>
+      
+            <!-- Pergunta 3 -->
+            <div class="border-b border-gray-200 pb-4">
+              <button class="w-full text-left text-lg font-semibold text-gray-800 flex justify-between items-center focus:outline-none toggle-faq">
+                <span>Há suporte para tirar dúvidas durante o curso?</span>
+                <span class="icon">+</span>
+              </button>
+              <p class="mt-2 text-gray-600 hidden answer">Cada curso com suas informações ao clicar em saiba mais, mas provavelmente você terá acesso ao suporte especializado que poderá ajudá-lo com dúvidas sobre o conteúdo.</p>
+            </div>
+      
+            <!-- Pergunta 4 -->
+            <div class="border-b border-gray-200 pb-4">
+              <button class="w-full text-left text-lg font-semibold text-gray-800 flex justify-between items-center focus:outline-none toggle-faq">
+                <span>Quanto tempo tenho para concluir cada curso?</span>
+                <span class="icon">+</span>
+              </button>
+              <p class="mt-2 text-gray-600 hidden answer">isso é detalhado no curso que escolher ao clicar, voce terá todas informasções que precisa!</p>
+            </div>
+      
+          </div>
+        </div>
+      </section>
+      
+      <script>
+        // Script para alternar o FAQ
+        document.querySelectorAll('.toggle-faq').forEach(button => {
+          button.addEventListener('click', () => {
+            const answer = button.nextElementSibling;
+            const icon = button.querySelector('.icon');
+            answer.classList.toggle('hidden');
+            icon.textContent = icon.textContent === '+' ? '-' : '+';
+          });
+        });
+      </script>
+      
+
+    <!-- Change the colour #f8fafc to match the previous section colour -->
+    <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
+          <g class="wave" fill="#f8fafc">
+            <path
+              d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"
+            ></path>
+          </g>
+          <g transform="translate(1.000000, 15.000000)" fill="#FFFFFF">
+            <g transform="translate(719.500000, 68.500000) rotate(-180.000000) translate(-719.500000, -68.500000) ">
+              <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
+              <path
+                d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
+                opacity="0.100000001"
+              ></path>
+              <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" opacity="0.200000003"></path>
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg>
+    
+    <!--Footer-->
+    <footer>
+        <div class="footer-container">
+            <!-- Logo -->
+            <div class="footer-logo">
+                <img src="logo.png" alt="Logo da Empresa" />
+            </div>
+    
+            <!-- Seção com 3 colunas: Sobre, Links Rápidos, Contato -->
+            <div class="footer-sections">
+                <!-- Sobre Nós -->
+                <div class="footer-col">
+                    <h3>Sobre Nós</h3>
+                    <p>Nossa missão é oferecer as melhores páginas para nosso clientes com intuito de ajudar você a ser um profissional.</p>
+                </div>
+    
+                <!-- Links Rápidos -->
+                <div class="footer-col">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Todos Cursos</a></li>
+                        <li><a href="contato.html">Contato Provedor</a></li>
+                       
+                    </ul>
+                </div>
+    
+                <!-- Contato -->
+                <div class="footer-col">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li>Email: <a href="mailto:contato@terapias.com.br">ravelcampos476@gmail.com</a></li>
+                        <li>Telefone: 55 48 9193-5955</li>
+                        <li>Endereço: Garopaba,SC</li>
+                    </ul>
+                </div>
+            </div>
+  
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery if you need it
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  -->
+    <script>
+      var scrollpos = window.scrollY;
+      var header = document.getElementById("header");
+      var navcontent = document.getElementById("nav-content");
+      var navaction = document.getElementById("navAction");
+      var brandname = document.getElementById("brandname");
+      var toToggle = document.querySelectorAll(".toggleColour");
+
+      document.addEventListener("scroll", function () {
+        /*Apply classes for slide in bar*/
+        scrollpos = window.scrollY;
+
+        if (scrollpos > 10) {
+          header.classList.add("bg-white");
+          navaction.classList.remove("bg-white");
+          navaction.classList.add("gradient");
+          navaction.classList.remove("text-gray-800");
+          navaction.classList.add("text-white");
+          //Use to switch toggleColour colours
+          for (var i = 0; i < toToggle.length; i++) {
+            toToggle[i].classList.add("text-gray-800");
+            toToggle[i].classList.remove("text-white");
+          }
+          header.classList.add("shadow");
+          navcontent.classList.remove("bg-gray-100");
+          navcontent.classList.add("bg-white");
+        } else {
+          header.classList.remove("bg-white");
+          navaction.classList.remove("gradient");
+          navaction.classList.add("bg-white");
+          navaction.classList.remove("text-white");
+          navaction.classList.add("text-gray-800");
+          //Use to switch toggleColour colours
+          for (var i = 0; i < toToggle.length; i++) {
+            toToggle[i].classList.add("text-white");
+            toToggle[i].classList.remove("text-gray-800");
+          }
+
+          header.classList.remove("shadow");
+          navcontent.classList.remove("bg-white");
+          navcontent.classList.add("bg-gray-100");
+        }
+      });
+    </script>
+    <script>
+      /*Toggle dropdown list*/
+      /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+
+      var navMenuDiv = document.getElementById("nav-content");
+      var navMenu = document.getElementById("nav-toggle");
+
+      document.onclick = check;
+      function check(e) {
+        var target = (e && e.target) || (event && event.srcElement);
+
+        //Nav Menu
+        if (!checkParent(target, navMenuDiv)) {
+          // click NOT on the menu
+          if (checkParent(target, navMenu)) {
+            // click on the link
+            if (navMenuDiv.classList.contains("hidden")) {
+              navMenuDiv.classList.remove("hidden");
+            } else {
+              navMenuDiv.classList.add("hidden");
+            }
+          } else {
+            // click both outside link and outside menu, hide menu
+            navMenuDiv.classList.add("hidden");
+          }
+        }
+      }
+      function checkParent(t, elm) {
+        while (t.parentNode) {
+          if (t == elm) {
+            return true;
+          }
+          t = t.parentNode;
+        }
+        return false;
+      }
+    </script>
+  </body>
+</html>
